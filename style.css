@@ -1,11 +1,13 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap'); */
 
 :root {
+    background-image: url("s1.gif"); 
+    background-size: cover;
     font-family: 'Times New Roman', Times, serif;
-   background-color: rgb(28, 28, 133);
+   /* background-color: rgb(30, 30, 230); */
 }
 /* m  */
-#start{
+.start{
     font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 30px;
         font-weight: bold;
@@ -24,7 +26,7 @@
         position: relative;
         margin-bottom: 35px;
 }
-        #start:hover {
+        .start:hover {
             box-shadow: 0 0.4rem 4.4rem 0 rgba(255,255,0,0.5);
             
             
@@ -32,7 +34,7 @@
     #line {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 25px;
-        color: rgb(231, 10, 10);
+        color: rgb(250, 249, 244);
         margin-left: 0%;
         margin-right: 0%;
         pointer-events: painted  ;
@@ -135,7 +137,7 @@ h2 {
     font-size: 20px;
     margin-top: 10px;}
 
-#highscore-btn {
+.highscore-btn {
     margin-top: 25px;
     background: linear-gradient(90deg, rgb(255, 247, 9) 0%, rgb(240, 221, 6) 100%);
     text-align: center;
@@ -149,17 +151,12 @@ margin-top: 35px;
 
 }
 
-#highscore-btn:hover {
+.highscore-btn:hover {
     box-shadow: 0 0.4rem 4.4rem 0 rgba(255,255,0,0.5);
    
 }
 
-.fa-crown {
-    font-size: 2.5rem;
-    margin-left: 1rem;
-}
 
-/* End Page CSS */
 .end-form-container {
     width: 100%;
     display: flex;
@@ -185,20 +182,17 @@ input::placeholder {
     margin-bottom: 3rem;
     width: 100%;
     outline: none;
+    text-decoration-color: teal;
 }
 
 #end-text {
-    font-size: 2.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
     color: #fff;
     text-align: center;
+    margin-top: 30px;
 }
 
 #saveScoreBtn {
     border: none;
 }
-
-.fa-home {
-    margin-left: 1rem;
-    font-size: 2rem;
-    color: rgb(28, 26, 26)
-} 

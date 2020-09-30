@@ -5,9 +5,20 @@ body {
 #highScoresList {
     list-style: none;
     margin-bottom: 4rem;
+    
+
+}
+#highScoresLis:hover {
+    box-shadow: 0 0.4rem 4.4rem 0 rgba(255,255,0,0.5);
 }
 
 .high-score {
     font-size: 2.8rem;
     margin-bottom: 0.5rem;
 } 
+#finalScore{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(255, 247, 9);
+}
