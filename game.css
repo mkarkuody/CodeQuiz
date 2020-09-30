@@ -19,20 +19,20 @@ color: rgb(248, 248, 244);
 .choice-container {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     width: 100%;
     border-radius: 1rem;
-    background: rgb(24, 24, 240);
-    font-size: 2rem;
-    min-width: 80rem;
+    /* background: rgb(17, 17, 243); */
+    font-size: 3rem;
+    min-width: 15rem;
     color: white;
 }
 
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 1rem 10.4rem 0 rgba(117, 119, 19, 0.5);
+    box-shadow: 0 1rem 1rem 1rem rgba(249, 253, 7, 0.5);
     transform: scale(1.02);
-    transform: transform 100ms;
+    transform: transform 10ms;
     color: yellow;
 }
 
