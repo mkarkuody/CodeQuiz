@@ -54,7 +54,7 @@
         position: relative;
         
     }
-    #planet {
+    .planet {
     /* position: absolute; */
      margin-top: 0px;
     /* margin-left: 86%;  */
