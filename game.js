@@ -3,6 +3,7 @@ const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
+let timer = document.getElementById("timer")
 
 let currentQuestion = {}
 let acceptingAnswers = true
@@ -48,13 +49,27 @@ let questions = [
 
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 4
+var timeLeft = 80;
 
 startGame = () => {
     questionCounter = 0
     score = 0
     availableQuestions = [...questions]
+    startTimer()
     getNewQuestion()
 }
+function startTimer() {
+    var time= setInterval(function() {
+timeLeft--
+timer.innerHTML= timeLeft
+
+if (timeLeft <= 0) {
+   clearInterval (time)
+   return window.location.assign('./end.html')
+}
+    }, 1000 )
+    
+} 
 
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
