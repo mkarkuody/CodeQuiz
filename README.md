@@ -1,4 +1,5 @@
 Planet’s Quiz by Merdad Karkudi;
+repository link : https://github.com/mkarkuody/CodeQuiz
 
 For making this quiz application I used HTML, CSS and JavaScript.
 In VS code I created index HTML file added title and added style.css link inside HTML head.
